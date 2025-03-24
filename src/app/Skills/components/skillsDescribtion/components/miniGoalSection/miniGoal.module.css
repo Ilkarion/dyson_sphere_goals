@@ -1,0 +1,35 @@
+.titleMiniGoal {
+    text-align: center;
+    text-decoration: underline dashed var(--main-text-skills) 0.8px;
+}
+
+.checkBoxGroup {
+    display: flex;
+    margin-top: 7px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date,
+.date time {
+    font-size: 0.44rem;
+    color: white;
+    text-decoration: none;
+}
+
+.date {
+    text-align: center;
+    margin-top: 7px;
+}
+
+@media(width > 650px) {
+    .accordion {
+        max-width: 205px;
+    }
+    .titleMiniGoal {
+        font-size: 1.11rem;
+    }
+    .date, .date time {
+        font-size: 0.94rem;
+    }
+}

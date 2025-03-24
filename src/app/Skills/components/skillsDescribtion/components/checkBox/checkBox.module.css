@@ -1,0 +1,40 @@
+.checkBoxIcon {
+    background-color: rgb(0, 255, 115);
+    width: 5px;
+    height: 5px;
+}
+
+.checkBoxRoot {
+	background-color: rgb(158, 158, 158);
+	width: 5px;
+	height: 5px;
+	border-radius: 0px;
+    border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.checkBoxRoot:hover {
+	background-color: rgb(134, 134, 134);
+}
+
+
+.label {
+	color: white;
+	padding-left: 5px;
+    font-size: 0.7rem;
+	line-height: 1;
+}
+
+.checkBoxIcon {
+    color: black;
+    font-size: 18px;
+}
+
+
+@media(width > 650px) {
+    .label {
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,88 @@
+.allLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 25px;
+}
+
+.allLine > div {
+    position: relative;
+}
+
+
+.mainLine {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color:var(--main-line-skills);
+}
+
+.connectionCircle {
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    background-color: var(--main-line-skills);
+    position: relative;
+}
+
+.connectionCircle::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    position: absolute;
+    border-radius: 9999px;
+    top: 25%;
+    left: 25%;
+}
+
+.connectionLine {
+    width: 60px;
+    height: 3px;
+    background-color: var(--main-line-skills);
+    position: absolute;
+    z-index: -1;
+}
+
+.connectionElement {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+}
+
+@media(width > 650px) {
+    .skillComponent {
+        padding-right: 76px;
+    }
+}
+
+@media(width > 950px) {
+    .allLine {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mainLine {
+        transform: rotate(90deg);
+        height: 100vw;
+    }
+    .skillComponent {
+        transform: rotate(180deg);
+        padding-right: 0px;
+        margin-top: 0px;
+        flex-direction: column;
+
+    }
+    .connectionElement {
+        transform: rotate(90deg);
+    }
+}

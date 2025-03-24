@@ -1,0 +1,52 @@
+.skillProgress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0deg);
+    width: 125px;
+    margin-left: 14px;
+    padding: 7px 12px;
+    border-radius: 9999px;
+    border: 1px solid var(--progress-text-skills);
+}
+
+
+.progressTitle {
+    color: var(--progress-text-skills);
+    font-size: 0.83rem;
+}
+
+
+.inProgressBg {
+    background-color: var(--inProgress-bg-skills);
+}
+
+.completedBg {
+    background-color: var(--completed-bg-skills);
+}
+
+.unfinishedBg {
+    background-color: var(--unfinished-bg-skills);
+}
+
+.notStartedBg {
+    background-color: var(--notStarted-bg-skills);
+}
+
+@media(width > 650px) {
+    .skillProgress {
+        margin-left: 15px;
+    }
+
+    .progressTitle {
+        font-size: 1.11rem;
+    }
+}
+
+@media(width >= 950px) {
+    .skillProgress {
+        margin: auto;
+        transform: rotate(180deg);
+        margin-top: 14px;
+    }
+}   
