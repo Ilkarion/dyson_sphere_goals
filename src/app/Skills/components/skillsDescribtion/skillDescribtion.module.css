@@ -54,6 +54,12 @@
     padding-bottom: 1px;
 }
 
+@media(width < 450px) {
+    .trigger {
+        font-size: 0.99rem;
+    }
+}
+
 @media(width < 950px) {
     .accordion {
         max-width: 205px;

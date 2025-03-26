@@ -60,7 +60,7 @@
     margin-top: 20px;
 }
 
-@media(width < 420) {
+@media(width < 420px) {
     .allLine {
         align-items: end;
     }
