@@ -22,6 +22,15 @@
     margin-top: 7px;
 }
 
+@media(width < 420px) {
+    .titleMiniGoal {
+        font-size: 0.95rem;
+    }
+    .date, .date time {
+        font-size: 0.6rem;
+    }
+}
+
 @media(width > 650px) {
     .accordion {
         max-width: 205px;

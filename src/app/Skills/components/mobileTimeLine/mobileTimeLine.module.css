@@ -60,6 +60,20 @@
     margin-top: 20px;
 }
 
+@media(width < 420) {
+    .allLine {
+        align-items: end;
+    }
+    .mainLine {
+        margin-right: 59px;
+    }
+    .skillComponent {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+}
+
+
 @media(width > 650px) {
     .skillComponent {
         padding-right: 76px;
@@ -80,9 +94,10 @@
         padding-right: 0px;
         margin-top: 0px;
         flex-direction: column;
-
+        margin-top: 30px;
     }
     .connectionElement {
         transform: rotate(90deg);
     }
 }
+

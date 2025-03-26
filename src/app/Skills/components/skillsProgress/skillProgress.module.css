@@ -1,15 +1,17 @@
 .skillProgress {
-    display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(0deg);
-    width: 125px;
     margin-left: 14px;
     padding: 7px 12px;
     border-radius: 9999px;
     border: 1px solid var(--progress-text-skills);
 }
 
+.mobileSkillProgress {
+    width: 20px;
+    height: 20px;
+}
 
 .progressTitle {
     color: var(--progress-text-skills);
@@ -43,10 +45,34 @@
     }
 }
 
-@media(width >= 950px) {
+
+@media(width <= 950px) {
     .skillProgress {
+        display: none;
+    }
+    .mobileSkillProgress {
+        display: flex;
+        padding: 0px;
+    }
+    .progressTitle {
+        display: none;
+    }
+    .progressTitle > span {
+        display: none;
+    }
+}   
+
+@media(width >= 950px) {
+    .mobileSkillProgress {
+        display: none;
+    }
+    .skillProgress {
+        display: flex;
         margin: auto;
         transform: rotate(180deg);
         margin-top: 14px;
+        width: 220px;
+        padding: 7px 12px;
+        height: auto;
     }
-}   
+}

@@ -10,14 +10,14 @@ export default function SkillProgress({stage}:{stage:string}) {
     return(
         <>
             <div 
-            className={`${style.skillProgress}
+            className={`${style.skillProgress} ${style.mobileSkillProgress}
             ${stage === "In progress" ? 
                 style.inProgressBg : stage === "completed" ? 
                 style.completedBg : stage === "unfinished" ? 
                 style.unfinishedBg : stage === "not started" ?
                 style.notStartedBg : ''}`}
             >
-                <span className={style.progressTitle}>{textShow}</span>
+                <span className={`${style.progressTitle} ${style.mobileProgressTitle}`}>{textShow}</span>
             </div>
         </>
     )

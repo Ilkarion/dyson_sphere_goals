@@ -1,5 +1,5 @@
 :root {
---mobile-font-size: 18px;
+--mobile-font-size: 28px;
 --navigation-panel: rgba(119, 215, 254, 0.23);
 --navigation-options: rgba(56, 73, 104, 1);
 --navigation-sections: rgba(37, 52, 100, 1);
@@ -33,6 +33,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin:  0;
-  font-size: 18px;
+  font-size: var(--mobile-font-size);
 }
 

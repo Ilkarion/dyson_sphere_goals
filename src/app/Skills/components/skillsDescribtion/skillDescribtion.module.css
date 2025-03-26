@@ -1,5 +1,4 @@
 .accordion {
-    max-width: 125px;
     margin-right: 14px;
     border: 1px solid var(--main-text-skills);
     border-radius: 0px;
@@ -56,6 +55,9 @@
 }
 
 @media(width < 950px) {
+    .accordion {
+        max-width: 205px;
+    }
     .content {
         max-width: 200px;
         overflow: hidden;
