@@ -2,7 +2,7 @@
 import darkOption from "@/assets/dark-theme.png"
 import Image from "next/image"
 import { useTheme } from "next-themes"
-import style from "./darkBtn.module.css"
+import style from "./darkBtn.module.scss"
 import { useState, useEffect } from "react"
 
 

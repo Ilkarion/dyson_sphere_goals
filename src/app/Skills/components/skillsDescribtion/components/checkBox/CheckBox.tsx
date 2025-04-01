@@ -1,12 +1,12 @@
 import * as  Checkbox  from "@radix-ui/react-checkbox"
-import style from "./checkBox.module.css"
+import style from "./checkBox.module.scss"
 import { useState } from "react"
 
 export default function CheckBox({text, idBox}:{text:string, idBox:number}) {
     const [ checked, setChecked ] = useState(false)
     return(
         <>
-            <form>
+            <form className={style.formCheckBox}>
                 <div style={{ display: "flex", alignItems: "center" }}>
                     <Checkbox.Root 
                     id={`${idBox}`}

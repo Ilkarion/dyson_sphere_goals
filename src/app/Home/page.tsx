@@ -1,4 +1,4 @@
-import style from "./page.module.css"
+import style from "./page.module.scss"
 import ThemedImage from "../components/theme-provider";
 import Navigation from "../components/navigation/navigation";
 

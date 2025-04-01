@@ -1,5 +1,5 @@
 'use client'
-import style from "./skillProgress.module.css" 
+import style from "./skillProgress.module.scss" 
 
 export default function SkillProgress({stage}:{stage:string}) {
     let textShow = stage

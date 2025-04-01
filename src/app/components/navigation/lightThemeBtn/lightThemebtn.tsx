@@ -2,7 +2,7 @@
 import lighgtOption from "@/assets/light-theme.png"
 import Image from "next/image"
 import { useTheme } from "next-themes"
-import style from "./lightBtn.module.css"
+import style from "./lightBtn.module.scss"
 import { useState, useEffect } from "react"
 
 

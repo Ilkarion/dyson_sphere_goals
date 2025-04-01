@@ -1,6 +1,6 @@
 import SkillDescribtion from "../skillsDescribtion/SkillDescribtion"
 import SkillProgress from "../skillsProgress/SkillProgress"
-import style from "./mobileTimeLine.module.css"
+import style from "./mobileTimeLine.module.scss"
 
 export default function SkillComponent({mode}:{mode:string}) {
     return(

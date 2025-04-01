@@ -1,4 +1,4 @@
-import style from "./miniGoal.module.css"
+import style from "./miniGoal.module.scss"
 import CheckBox from "../checkBox/CheckBox"
 
 

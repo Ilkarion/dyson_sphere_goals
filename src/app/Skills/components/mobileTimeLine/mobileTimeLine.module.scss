@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-items: end;
     width: 100vw;
     gap: 25px;
 }
@@ -60,12 +61,21 @@
     margin-top: 20px;
 }
 
-@media(width < 420px) {
+@media(width < 340px) {
     .allLine {
         align-items: end;
     }
     .mainLine {
-        margin-right: 59px;
+        margin-right: 48px;
+    }
+}
+
+@media(340px < width < 500px) {
+    .allLine {
+        align-items: end;
+    }
+    .mainLine {
+        margin-right: 65px;
     }
     .skillComponent {
         margin-top: 20px;
@@ -73,10 +83,23 @@
     }
 }
 
-
-@media(width > 650px) {
+@media(width > 500px) {
+    .allLine {
+        align-items: center;
+    }
+    .mainLine {
+        margin-right: 0px;
+        margin-left: 4px;
+    }
     .skillComponent {
-        padding-right: 76px;
+        margin-left: 0px;
+    }
+
+}
+
+@media(width >= 650px) {
+    .mainLine {
+        margin-left: 19px;
     }
 }
 
@@ -101,3 +124,8 @@
     }
 }
 
+@media(width > 750px) {
+    .skillComponent {
+        margin-right: 30px;
+    }
+}

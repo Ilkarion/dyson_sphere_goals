@@ -1,5 +1,5 @@
 'use client'
-import style from "./homeBg.module.css"
+import style from "./homeBg.module.scss"
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 

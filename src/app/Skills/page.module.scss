@@ -16,9 +16,15 @@
   justify-content: center;
   align-items: center
 }
-@media(width < 450px) {
+@media(width < 500px) {
   .alignElemts {
     justify-content: end;
+  }
+}
+
+@media(width > 500px) {
+  .alignElemts {
+    justify-content: center;
   }
 }
 

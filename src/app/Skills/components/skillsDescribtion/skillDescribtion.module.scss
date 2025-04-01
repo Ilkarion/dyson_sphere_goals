@@ -1,4 +1,5 @@
 .accordion {
+    max-width: 215px;
     margin-right: 14px;
     border: 1px solid var(--main-text-skills);
     border-radius: 0px;
@@ -47,11 +48,15 @@
     max-height: 200px; /* Ограничение высоты, но можно изменить */
     opacity: 1;
     overflow-y: auto;
+    
 }
 
 .body {
     padding-top: 17px;
     padding-bottom: 1px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 @media(width < 450px) {
@@ -62,10 +67,10 @@
 
 @media(width < 950px) {
     .accordion {
-        max-width: 205px;
+        max-width: 225px;
     }
     .content {
-        max-width: 200px;
+        max-width: 100%;
         overflow: hidden;
         max-height: 0;
         transition: max-height 0.3s ease, opacity 0.3s ease;
@@ -84,13 +89,20 @@
 
 @media(width > 650px) {
     .accordion {
-        max-width: 205px;
+        max-width: 240px;
     }
     .titleMiniGoal {
         font-size: 1.11rem;
     }
     .date, .date time {
         font-size: 0.94rem;
+    }
+}
+
+
+@media(width > 750px) {
+    .accordion {
+        max-width: 270px;
     }
 }
 

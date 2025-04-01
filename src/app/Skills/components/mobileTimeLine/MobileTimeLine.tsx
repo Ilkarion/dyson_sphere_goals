@@ -1,4 +1,4 @@
-import style from "./mobileTimeLine.module.css"
+import style from "./mobileTimeLine.module.scss"
 import SkillComponent from "./SkillComponent"
 
 export default function MobileTimeLine() {

@@ -9,8 +9,8 @@
 }
 
 .mobileSkillProgress {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .progressTitle {
@@ -35,18 +35,16 @@
     background-color: var(--notStarted-bg-skills);
 }
 
-@media(width > 650px) {
-    .skillProgress {
-        margin-left: 15px;
-    }
-
-    .progressTitle {
-        font-size: 1.11rem;
+@media(width < 340px) {
+    .mobileSkillProgress {
+        width: 20px;
+        height: 20px;
     }
 }
 
 
-@media(width <= 950px) {
+
+@media(width < 500px) {
     .skillProgress {
         display: none;
     }
@@ -62,15 +60,23 @@
     }
 }   
 
-@media(width >= 950px) {
+@media(width >= 500px) {
+    .skillProgress {
+        margin-left: 15px;
+    }
+
+    .progressTitle {
+        font-size: 1.11rem;
+    }
+
     .mobileSkillProgress {
         display: none;
+
     }
     .skillProgress {
         display: flex;
-        margin: auto;
-        transform: rotate(180deg);
-        margin-top: 14px;
+        transform: rotate(0deg);
+        margin-left: 14px;
         width: 220px;
         padding: 7px 12px;
         height: auto;

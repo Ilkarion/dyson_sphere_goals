@@ -1,4 +1,4 @@
-import style from "../navigation/navig.module.css"
+import style from "../navigation/navig.module.scss"
 import Link from "next/link"
 import SkillsBtn from "../navigation/skillsBtn/skillsBtn"
 import GuideBtn from "../navigation/guideBtn/guideBtn"

@@ -1,4 +1,4 @@
-import style from "./guideBtn.module.css"
+import style from "./guideBtn.module.scss"
 import Image from "next/image"
 import guideImg from "@/assets/guide.png"
 

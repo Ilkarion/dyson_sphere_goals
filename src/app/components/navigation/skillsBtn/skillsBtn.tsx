@@ -1,5 +1,5 @@
 'use client'
-import style from "./skillsBtn.module.css"
+import style from "./skillsBtn.module.scss"
 import Image from "next/image"
 import skillsImg from "@/assets/skills.png"
 

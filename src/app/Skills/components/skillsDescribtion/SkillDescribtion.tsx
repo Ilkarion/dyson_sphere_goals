@@ -1,5 +1,5 @@
 'use client'
-import style from "./skillDescribtion.module.css"
+import style from "./skillDescribtion.module.scss"
 import * as Accordion from "@radix-ui/react-accordion"
 import { useState } from "react";
 import MiniGoal from "./components/miniGoalSection/MiniGoal";

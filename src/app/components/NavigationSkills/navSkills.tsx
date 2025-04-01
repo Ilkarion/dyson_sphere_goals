@@ -1,4 +1,4 @@
-import style from "../navigation/navig.module.css"
+import style from "../navigation/navig.module.scss"
 import style2 from "./navSkills.module.css"
 import DarkThemebtn from "../navigation/darkThemeBtn/darkThemebtn"
 import LightThemebtn from "../navigation/lightThemeBtn/lightThemebtn"

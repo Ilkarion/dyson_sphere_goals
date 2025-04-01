@@ -1,4 +1,4 @@
-import style from "./page.module.css"
+import style from "./page.module.scss"
 import Navigation from "../components/navigation/navigation"
 import HomeBg from "./components/homeBg/HomeBg"
 import MobileTimeLine from "./components/mobileTimeLine/MobileTimeLine"
