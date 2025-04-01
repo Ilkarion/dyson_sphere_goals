@@ -1,10 +1,11 @@
 .allLine {
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-items: end;
     width: 100vw;
+    height: 100vh;
     gap: 25px;
+    // overflow-y: auto;
 }
 
 .allLine > div {
@@ -103,29 +104,37 @@
     }
 }
 
-@media(width > 950px) {
-    .allLine {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .mainLine {
-        transform: rotate(90deg);
-        height: 100vw;
-    }
+@media(width >= 750px) {
     .skillComponent {
-        transform: rotate(180deg);
-        padding-right: 0px;
-        margin-top: 0px;
-        flex-direction: column;
-        margin-top: 30px;
-    }
-    .connectionElement {
-        transform: rotate(90deg);
+        margin-right: 30px;
     }
 }
 
-@media(width > 750px) {
+@media(width >= 950px) {
+    .allLine { 
+        flex-direction: row;
+        align-items: flex-start;
+        position: absolute;
+        padding-top: 45px;
+        padding-left: 20px;
+        overflow-y: auto;
+    }
+    .mainLine { 
+        width: 100vw;
+        height: 5px;
+        top: 143px;
+        margin-left: 0px;
+    }
     .skillComponent {
-        margin-right: 30px;
+        transform: rotate(180deg); 
+        padding-right: 0px;
+        margin-top: 0px;
+        flex-direction: column;
+        margin-top: 19px;
+        gap: 14px;
+        min-width: 270px;
+    }
+    .connectionElement {
+        transform: rotate(90deg);
     }
 }

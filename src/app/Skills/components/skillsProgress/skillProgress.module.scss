@@ -82,3 +82,10 @@
         height: auto;
     }
 }
+
+@media(width >= 950px) {
+    .skillProgress {
+        transform: rotate(180deg);
+        margin-left: 0px;
+    }
+}

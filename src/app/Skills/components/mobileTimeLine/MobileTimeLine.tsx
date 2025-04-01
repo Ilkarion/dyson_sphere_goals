@@ -6,9 +6,13 @@ export default function MobileTimeLine() {
         <>
             <div className={style.mainLine}></div>
             <div className={style.allLine}>
-                <SkillComponent mode="not started" />
-                <SkillComponent mode="unfinished" />
-                <SkillComponent mode="completed" />
+                <SkillComponent mode="not started" idBox={1}/>
+                <SkillComponent mode="unfinished" idBox={2}/>
+                <SkillComponent mode="completed" idBox={3}/>
+                <SkillComponent mode="In Progress" idBox={4}/>
+                <SkillComponent mode="In Progress" idBox={5}/>
+                <SkillComponent mode="completed" idBox={6}/>
+                <SkillComponent mode="completed" idBox={7}/>
             </div>
         </>
     )

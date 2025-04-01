@@ -5,6 +5,7 @@
   align-items: flex-start;
   width: 100vw;
   height: 100vh;
+  overflow: visible;
 }
 
 .alignNav {
@@ -30,6 +31,6 @@
 
 @media(width >= 950px) {
   .alignElemts {
-      align-items: center;
+      align-items: flex-start;
   }
 }
