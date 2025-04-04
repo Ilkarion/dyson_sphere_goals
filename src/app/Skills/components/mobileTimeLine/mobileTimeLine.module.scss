@@ -5,7 +5,8 @@
     width: 100vw;
     height: 100vh;
     gap: 25px;
-    // overflow-y: auto;
+    overflow-y: auto;
+    padding-bottom: 85px;
 }
 
 .allLine > div {
@@ -89,8 +90,8 @@
         align-items: center;
     }
     .mainLine {
-        margin-right: 0px;
-        margin-left: 4px;
+        // margin-right: 5px;
+        // margin-left: 4px;
     }
     .skillComponent {
         margin-left: 0px;
@@ -98,9 +99,21 @@
 
 }
 
+@media(width < 529px) {
+    .mainLine {
+        margin-left: 23px;
+    }
+} 
+
+@media(529px < width < 650px) {
+    .mainLine {
+        margin-right: 21px;
+    }
+}
+
 @media(width >= 650px) {
     .mainLine {
-        margin-left: 19px;
+        margin-right: 6px;
     }
 }
 

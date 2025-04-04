@@ -10,7 +10,7 @@
 --main-line-skills: rgba(81, 117, 193, 1);
 --title-skill-bg: rgba(37, 52, 100, 1);
 --main-text-skills: rgba(255, 217, 0, 1);
---inProgress-bg-skills: rgba(255, 217, 0, 0.2);
+--inProgress-bg-skills: rgba(255, 217, 0, 0.5);
 --completed-bg-skills: rgba(26, 255, 0, 0.5);
 --notStarted-bg-skills: rgba(217, 217, 217, 0.5);
 --unfinished-bg-skills: rgba(255, 0, 0, 0.5);
@@ -20,6 +20,10 @@
 html.dark {
   --progress-text-skills: rgba(255, 217, 0, 1);
   --title-skill-bg: rgba(71, 97, 178, 0.5);
+  --inProgress-bg-skills: rgba(255, 217, 0, 0.25);
+  --completed-bg-skills: rgba(26, 255, 0, 0.25);
+  --notStarted-bg-skills: rgba(217, 217, 217, 0.25);
+  --unfinished-bg-skills: rgba(255, 0, 0, 0.25);
 }
 
 

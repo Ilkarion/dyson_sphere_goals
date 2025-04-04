@@ -16,6 +16,7 @@
 .progressTitle {
     color: var(--progress-text-skills);
     font-size: 0.83rem;
+    text-align: center;
 }
 
 
@@ -77,11 +78,17 @@
         display: flex;
         transform: rotate(0deg);
         margin-left: 14px;
-        width: 220px;
+        width: 250px;
         padding: 7px 12px;
         height: auto;
     }
 }
+
+@media(500px < width < 529px) {
+    .skillProgress {
+        width: 200px;
+    }
+}   
 
 @media(width >= 950px) {
     .skillProgress {

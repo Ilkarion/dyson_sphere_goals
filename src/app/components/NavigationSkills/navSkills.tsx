@@ -5,6 +5,7 @@ import LightThemebtn from "../navigation/lightThemeBtn/lightThemebtn"
 import GuideBtn from "../navigation/guideBtn/guideBtn"
 import Link from "next/link"
 import ReturnHome from "../navigation/returnHomeBtn/returnHome"
+import AddCard from "../navigation/AddNewCard/AddCard"
 
 
 export default function navSkills() {
@@ -24,13 +25,17 @@ export default function navSkills() {
                     </div>
                 </div>
 
+                <div className={style.guideSkills}>
+                    <AddCard />
+                </div>
+
                 <div className={style.lightDarkOption}>
-                <div className={style2.rotateLogo}>
-                    <DarkThemebtn />
-                </div>
-                <div className={style2.rotateLogo}>
-                    <LightThemebtn />
-                </div>
+                    <div className={style2.rotateLogo}>
+                        <DarkThemebtn />
+                    </div>
+                    <div className={style2.rotateLogo}>
+                        <LightThemebtn />
+                    </div>
                 </div>
             </div>
         </>

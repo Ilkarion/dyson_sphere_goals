@@ -4,7 +4,7 @@ import style from "./skillProgress.module.scss"
 export default function SkillProgress({stage}:{stage:string}) {
     let textShow = stage
     if(textShow == "In progress") {
-        textShow = "In progress 55%"
+        textShow = "In progress 100%"
     }
     console.log(stage)
     return(
