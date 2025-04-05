@@ -8,11 +8,27 @@
 }
 
 .cardCreatorMenu {
-    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
     z-index: 2;
-    top: 50%;
-    right: 50%;
-    width: 35vw;
-    height: 35vw;
-    background-color: var(--navigation-panel)
+    margin-top: 50px;
+    background-color: var(--navigation-options)
+}
+
+.cardCreatorMenu > form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addStage {
+    display: flex;
+    flex-direction: row;
+}
+
+.addStageInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

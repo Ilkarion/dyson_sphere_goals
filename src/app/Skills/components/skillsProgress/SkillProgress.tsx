@@ -6,7 +6,6 @@ export default function SkillProgress({stage}:{stage:string}) {
     if(textShow == "In progress") {
         textShow = "In progress 100%"
     }
-    console.log(stage)
     return(
         <>
             <div 

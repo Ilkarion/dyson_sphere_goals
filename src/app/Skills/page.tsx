@@ -11,6 +11,7 @@ export default function page() {
             <div className={style.alignNav}>
                 <Navigation mode="skills"/>
             </div>
+            <div id="creator-card-menu"></div>
         </div>
     )
 };
